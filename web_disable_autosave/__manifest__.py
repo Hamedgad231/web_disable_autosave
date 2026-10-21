@@ -13,7 +13,8 @@
     'author': "Hamid A Mohamed",
     'maintainer': "Hamid A Mohamed",
     'category': 'Productivity',
-    'version': '20.0.1.0.0',
+    'version': '20.0.1.2.19',
+    'category': 'Tools/Utils',
     'license': 'LGPL-3',
     'depends': ['web'],
     'assets': {
@@ -25,7 +26,6 @@
         ],
     },
     'images': ['static/description/banner.png'],
-    'license': 'AGPL-3',
     'installable': True,
     'auto_install': False,
     'application': False,
