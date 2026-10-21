@@ -18,10 +18,10 @@
     'depends': ['web'],
     'assets': {
         'web.assets_backend': [
-            'web_disable_autosave/static/src/**/*',
-        ],
-        'web.assets_tests': [
-            'web_disable_autosave/static/tests/tours/**/*',
+            'web_disable_autosave/static/src/discard_dialog.js',
+            'web_disable_autosave/static/src/form_controller_patch.js',
+            'web_disable_autosave/static/src/list_controller_patch.js',
+            'web_disable_autosave/static/src/list_renderer_patch.js',
         ],
     },
     'images': ['static/description/banner.png'],
