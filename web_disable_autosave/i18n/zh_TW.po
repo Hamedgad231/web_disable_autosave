@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"停用網頁用戶端的自動儲存：\n"
+" - 離開記錄（導覽路徑、選單、返回按鈕、連結）：詢問要捨棄變更還是留在此處\n"
+" - 重新載入或關閉瀏覽器分頁：離開前瀏覽器會詢問，不會儲存任何內容\n"
+" - 切換到其他瀏覽器分頁：不會儲存任何內容\n"
+" - 記錄翻頁（下一筆 / 上一筆）與新增按鈕：詢問要捨棄變更還是留在此處\n"
+" - 可編輯清單：帶著已編輯的列離開頁面時，詢問要捨棄該列還是留在此處\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "停用自動儲存"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "捨棄變更"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "留在此頁"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr "停止 Odoo 的自動儲存：僅在使用者點擊儲存時才會儲存記錄"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr "此記錄有未儲存的變更。請捨棄變更，或留在此處並點擊儲存以保留它們。"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "未儲存的變更"

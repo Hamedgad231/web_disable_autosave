@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"Deaktiveer die outomatiese stoor van die webkliënt:\n"
+" - verlaat die rekord (broodkrummel, kieslys, terug-knoppie, skakels): vra om die veranderinge te verwerp of te bly\n"
+" - herlaai of sluit die blaaieroortjie: die blaaier vra voor dit verlaat word, niks word gestoor nie\n"
+" - skakel oor na 'n ander blaaieroortjie: niks word gestoor nie\n"
+" - rekordblaaier (volgende / vorige) en Nuwe-knoppie: vra om die veranderinge te verwerp of te bly\n"
+" - redigeerbare lyste: om die bladsy met 'n geredigeerde ry te verlaat, vra om dit te verwerp of te bly\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "Deaktiveer outomatiese stoor"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "Verwerp veranderinge"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "Bly hier"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Stop die outomatiese stoor van Odoo: rekords word slegs gestoor wanneer die "
+"gebruiker op Stoor klik"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"Hierdie rekord het ongestoorde veranderinge. Verwerp dit, of bly hier en "
+"klik Stoor om dit te behou."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "Ongestoorde veranderinge"

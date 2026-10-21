@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"禁用网页客户端的自动保存：\n"
+" - 离开记录（导航路径、菜单、返回按钮、链接）：询问是放弃更改还是留在此处\n"
+" - 重新加载或关闭浏览器标签页：离开前浏览器会询问，不保存任何内容\n"
+" - 切换到其他浏览器标签页：不保存任何内容\n"
+" - 记录翻页（下一条 / 上一条）和新建按钮：询问是放弃更改还是留在此处\n"
+" - 可编辑列表：带着已编辑的行离开页面时，询问是放弃该行还是留在此处\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "禁用自动保存"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "放弃变更"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "呆在这里"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr "停止 Odoo 的自动保存：仅当用户点击保存时才保存记录"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr "此记录有未保存的更改。放弃这些更改，或留在此处并点击保存以保留它们。"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "未保存的更改"

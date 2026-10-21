@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"បិទការរក្សាទុកស្វ័យប្រវត្តិរបស់កម្មវិធីបណ្ដាញ៖\n"
+" - ចាកចេញពីកំណត់ត្រា (ផ្លូវរុករក ម៉ឺនុយ ប៊ូតុងថយក្រោយ តំណ)៖ សួរថាតើត្រូវបោះបង់ការផ្លាស់ប្ដូរ ឬនៅទីនេះ\n"
+" - ផ្ទុកឡើងវិញ ឬបិទផ្ទាំងកម្មវិធីរុករក៖ កម្មវិធីរុករកសួរមុនពេលចាកចេញ គ្មានអ្វីត្រូវបានរក្សាទុកទេ\n"
+" - ប្ដូរទៅផ្ទាំងកម្មវិធីរុករកផ្សេង៖ គ្មានអ្វីត្រូវបានរក្សាទុកទេ\n"
+" - ការរំកិលកំណត់ត្រា (បន្ទាប់ / មុន) និងប៊ូតុង ថ្មី៖ សួរថាតើត្រូវបោះបង់ការផ្លាស់ប្ដូរ ឬនៅទីនេះ\n"
+" - បញ្ជីដែលអាចកែសម្រួលបាន៖ ការចាកចេញពីទំព័រជាមួយជួរដែលបានកែ នឹងសួរថាតើត្រូវបោះបង់ ឬនៅទីនេះ\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "បិទការរក្សាទុកស្វ័យប្រវត្តិ"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "បោះបង់ការផ្លាស់ប្ដូរ"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "នៅទីនេះ"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"បញ្ឈប់ការរក្សាទុកស្វ័យប្រវត្តិរបស់ Odoo៖ "
+"កំណត់ត្រាត្រូវបានរក្សាទុកតែនៅពេលអ្នកប្រើចុច រក្សាទុក ប៉ុណ្ណោះ"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"កំណត់ត្រានេះមានការផ្លាស់ប្ដូរដែលមិនទាន់រក្សាទុក។ បោះបង់វា ឬនៅទីនេះ ហើយចុច "
+"រក្សាទុក ដើម្បីរក្សាវាទុក។"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "ការផ្លាស់ប្ដូរមិនទាន់រក្សាទុក"

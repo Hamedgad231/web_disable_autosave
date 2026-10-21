@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"Deaktiviert das automatische Speichern des Web-Clients:\n"
+" - Verlassen des Datensatzes (Brotkrumen, Menü, Zurück-Taste, Links): fragt, ob die Änderungen verworfen werden sollen oder ob man bleibt\n"
+" - Neuladen oder Schliessen des Browser-Tabs: der Browser fragt vor dem Verlassen, nichts wird gespeichert\n"
+" - Wechsel zu einem anderen Browser-Tab: nichts wird gespeichert\n"
+" - Datensatz-Blättern (nächster / vorheriger) und Schaltfläche Neu: fragt, ob die Änderungen verworfen werden sollen oder ob man bleibt\n"
+" - bearbeitbare Listen: das Verlassen der Seite mit einer bearbeiteten Zeile fragt, ob sie verworfen werden soll oder ob man bleibt\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "Automatisches Speichern deaktivieren"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "Änderungen verwerfen"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "Hier bleiben"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Stoppen Sie das automatische Speichern von Odoo: Datensätze werden nur "
+"gespeichert, wenn der Benutzer auf Speichern klickt"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"Dieser Datensatz hat nicht gespeicherte Änderungen. Verwerfen Sie sie oder "
+"bleiben Sie hier und klicken Sie auf Speichern, um sie zu behalten."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "Nicht gespeicherte Änderungen"

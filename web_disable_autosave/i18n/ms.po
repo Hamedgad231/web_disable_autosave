@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"Lumpuhkan simpanan automatik klien web:\n"
+" - meninggalkan rekod (serbuk roti, menu, butang kembali, pautan): bertanya sama ada untuk membuang perubahan atau kekal\n"
+" - memuat semula atau menutup tab pelayar: pelayar bertanya sebelum keluar, tiada apa yang disimpan\n"
+" - beralih ke tab pelayar lain: tiada apa yang disimpan\n"
+" - penomboran rekod (seterusnya / sebelumnya) dan butang Baharu: bertanya sama ada untuk membuang perubahan atau kekal\n"
+" - senarai boleh sunting: meninggalkan halaman dengan baris yang disunting bertanya sama ada untuk membuangnya atau kekal\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "Lumpuhkan Simpan Automatik"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "Buang perubahan"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "Kekal di sini"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Hentikan simpanan automatik Odoo: rekod hanya disimpan apabila pengguna "
+"mengklik Simpan"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"Rekod ini mempunyai perubahan yang belum disimpan. Buang perubahan itu, atau"
+" kekal di sini dan klik Simpan untuk menyimpannya."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "Perubahan belum disimpan"

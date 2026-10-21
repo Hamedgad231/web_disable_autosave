@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"Çaktivizon ruajtjen automatike të klientit web:\n"
+" - largimi nga regjistrimi (shtegu i navigimit, menyja, butoni Prapa, lidhjet): pyet nëse të hidhen ndryshimet apo të qëndroni\n"
+" - ringarkimi ose mbyllja e skedës së shfletuesit: shfletuesi pyet para largimit, asgjë nuk ruhet\n"
+" - kalimi në një skedë tjetër të shfletuesit: asgjë nuk ruhet\n"
+" - shfletimi i regjistrimeve (pasardhës / paraardhës) dhe butoni I ri: pyet nëse të hidhen ndryshimet apo të qëndroni\n"
+" - listat e redaktueshme: largimi nga faqja me një rresht të redaktuar pyet nëse të hidhet apo të qëndroni\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "Çaktivizo ruajtjen automatike"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "Hidh ndryshimet"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "Qëndro këtu"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Ndaloni ruajtjen automatike të Odoo: regjistrimet ruhen vetëm kur përdoruesi"
+" klikon Ruaj"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"Ky regjistrim ka ndryshime të paruajtura. Hidhini ato, ose qëndroni këtu dhe"
+" klikoni Ruaj për t'i mbajtur."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "Ndryshime të paruajtura"

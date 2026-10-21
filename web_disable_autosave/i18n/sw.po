@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"Zima uhifadhi wa kiotomatiki wa mteja wa wavuti:\n"
+" - kuondoka kwenye rekodi (njia ya urambazaji, menyu, kitufe cha nyuma, viungo): huuliza kama kutupa mabadiliko au kubaki\n"
+" - kupakia upya au kufunga kichupo cha kivinjari: kivinjari huuliza kabla ya kuondoka, hakuna kinachohifadhiwa\n"
+" - kubadili kwenda kichupo kingine cha kivinjari: hakuna kinachohifadhiwa\n"
+" - kipitio cha rekodi (inayofuata / iliyotangulia) na kitufe cha Mpya: huuliza kama kutupa mabadiliko au kubaki\n"
+" - orodha zinazohaririwa: kuondoka kwenye ukurasa ukiwa na safu iliyohaririwa huuliza kama kuitupa au kubaki\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "Zima Kuhifadhi Kiotomatiki"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "Tupa mabadiliko"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "Baki hapa"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Sitisha uhifadhi wa kiotomatiki wa Odoo: rekodi huhifadhiwa tu mtumiaji "
+"anapobofya Hifadhi"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"Rekodi hii ina mabadiliko ambayo hayajahifadhiwa. Yatupe, au baki hapa na "
+"ubofye Hifadhi ili kuyaweka."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "Mabadiliko ambayo hayajahifadhiwa"

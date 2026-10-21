@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"Адключыць аўтаматычнае захаванне ў вэб-кліенце:\n"
+" - выхад з запісу (навігацыйны ланцужок, меню, кнопка «Назад», спасылкі): пытаецца, ці адхіліць змены, ці застацца\n"
+" - перазагрузка або закрыццё ўкладкі браўзера: браўзер пытаецца перад выхадам, нічога не захоўваецца\n"
+" - пераключэнне на іншую ўкладку браўзера: нічога не захоўваецца\n"
+" - гартанне запісаў (наступны / папярэдні) і кнопка «Новы»: пытаецца, ці адхіліць змены, ці застацца\n"
+" - рэдагуемыя спісы: выхад са старонкі са зменены радком пытаецца, ці адхіліць яго, ці застацца\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "Адключыць аўтазахаванне"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "Адхіліць змены"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "Застацца тут"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Спыніце аўтаматычнае захаванне ў Odoo: запісы захоўваюцца толькі калі "
+"карыстальнік націскае Захаваць"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"У гэтым запісе ёсць незахаваныя змены. Адхіліце іх або застаньцеся тут і "
+"націсніце Захаваць, каб захаваць іх."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "Незахаваныя змены"

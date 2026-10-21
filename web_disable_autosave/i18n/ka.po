@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"ვებ-კლიენტის ავტომატური შენახვის გამორთვა:\n"
+" - ჩანაწერიდან გასვლა (ნავიგაციის ბილიკი, მენიუ, უკან ღილაკი, ბმულები): გეკითხებათ, გააუქმოთ ცვლილებები თუ დარჩეთ\n"
+" - ბრაუზერის ჩანართის გადატვირთვა ან დახურვა: ბრაუზერი გასვლამდე გეკითხებათ, არაფერი ინახება\n"
+" - ბრაუზერის სხვა ჩანართზე გადასვლა: არაფერი ინახება\n"
+" - ჩანაწერების გვერდები (შემდეგი / წინა) და ღილაკი ახალი: გეკითხებათ, გააუქმოთ ცვლილებები თუ დარჩეთ\n"
+" - რედაქტირებადი სიები: რედაქტირებული სტრიქონით გვერდიდან გასვლისას გეკითხებათ, გააუქმოთ თუ დარჩეთ\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "ავტომატური შენახვის გამორთვა"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "ცვლილებების გაუქმება"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "აქ დარჩენა"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"შეაჩერეთ Odoo-ს ავტომატური შენახვა: ჩანაწერები ინახება მხოლოდ მაშინ, როცა "
+"მომხმარებელი დააჭერს შენახვას"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"ამ ჩანაწერს აქვს შეუნახავი ცვლილებები. გააუქმეთ ისინი, ან დარჩით აქ და "
+"დააჭირეთ შენახვას მათ შესანარჩუნებლად."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "შეუნახავი ცვლილებები"

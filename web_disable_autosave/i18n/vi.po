@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"Tắt tính năng tự động lưu của web client:\n"
+" - rời khỏi bản ghi (đường dẫn, menu, nút quay lại, liên kết): hỏi có loại bỏ thay đổi hay ở lại\n"
+" - tải lại hoặc đóng tab trình duyệt: trình duyệt hỏi trước khi rời đi, không có gì được lưu\n"
+" - chuyển sang tab trình duyệt khác: không có gì được lưu\n"
+" - phân trang bản ghi (tiếp / trước) và nút Mới: hỏi có loại bỏ thay đổi hay ở lại\n"
+" - danh sách có thể chỉnh sửa: rời trang khi có dòng đang chỉnh sửa sẽ hỏi có loại bỏ dòng đó hay ở lại\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "Tắt tự động lưu"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "Huỷ bỏ thay đổi"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "Ở đây"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Dừng tính năng tự động lưu của Odoo: bản ghi chỉ được lưu khi người dùng "
+"nhấp Lưu"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"Bản ghi này có thay đổi chưa được lưu. Hãy loại bỏ chúng, hoặc ở lại đây và "
+"nhấp Lưu để giữ lại."
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "Thay đổi chưa được lưu"

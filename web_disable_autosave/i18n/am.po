@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"የድር ደንበኛውን ራስ-ሰር ማስቀመጥ አሰናክል፦\n"
+" - መዝገቡን መልቀቅ (የዳቦ ፍርፋሪ፣ ምናሌ፣ የመመለሻ አዝራር፣ አገናኞች)፦ ለውጦቹን ለመሰረዝ ወይም ለመቆየት ይጠይቃል\n"
+" - የአሳሹን ትር እንደገና መጫን ወይም መዝጋት፦ አሳሹ ከመውጣት በፊት ይጠይቃል፣ ምንም አይቀመጥም\n"
+" - ወደ ሌላ የአሳሽ ትር መቀየር፦ ምንም አይቀመጥም\n"
+" - የመዝገብ ገጽ ማሰሻ (ቀጣይ / ቀዳሚ) እና አዲስ አዝራር፦ ለውጦቹን ለመሰረዝ ወይም ለመቆየት ይጠይቃል\n"
+" - ሊስተካከሉ የሚችሉ ዝርዝሮች፦ የተስተካከለ ረድፍ እያለ ገጹን መልቀቅ ለመሰረዝ ወይም ለመቆየት ይጠይቃል\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "ራስ-ሰር ማስቀመጥን አሰናክል"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "ለውጦቹን ሰርዝ"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "እዚህ ቆይ"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr "የOdoo ራስ-ሰር ማስቀመጥን ያቁሙ፦ መዝገቦች የሚቀመጡት ተጠቃሚው አስቀምጥ ሲጫን ብቻ ነው"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr "ይህ መዝገብ ያልተቀመጡ ለውጦች አሉት። ይሰርዟቸው፣ ወይም እዚህ ይቆዩና ለማቆየት አስቀምጥ የሚለውን ይጫኑ።"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "ያልተቀመጡ ለውጦች"

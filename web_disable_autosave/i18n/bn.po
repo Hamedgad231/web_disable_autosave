@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"ওয়েব ক্লায়েন্টের স্বয়ংক্রিয় সংরক্ষণ নিষ্ক্রিয় করুন:\n"
+" - রেকর্ড ছেড়ে যাওয়া (ব্রেডক্রাম্ব, মেনু, পিছনের বোতাম, লিঙ্ক): পরিবর্তন বাতিল করবেন নাকি থাকবেন তা জিজ্ঞাসা করে\n"
+" - ব্রাউজার ট্যাব পুনরায় লোড বা বন্ধ করা: ছেড়ে যাওয়ার আগে ব্রাউজার জিজ্ঞাসা করে, কিছুই সংরক্ষিত হয় না\n"
+" - অন্য ব্রাউজার ট্যাবে যাওয়া: কিছুই সংরক্ষিত হয় না\n"
+" - রেকর্ড পেজার (পরবর্তী / পূর্ববর্তী) এবং নতুন বোতাম: পরিবর্তন বাতিল করবেন নাকি থাকবেন তা জিজ্ঞাসা করে\n"
+" - সম্পাদনাযোগ্য তালিকা: সম্পাদিত সারি নিয়ে পৃষ্ঠা ছাড়লে তা বাতিল করবেন নাকি থাকবেন তা জিজ্ঞাসা করে\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "স্বয়ংক্রিয় সংরক্ষণ নিষ্ক্রিয় করুন"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "পরিবর্তন বাতিল করুন"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "এখানে থাকুন"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Odoo-এর স্বয়ংক্রিয় সংরক্ষণ বন্ধ করুন: ব্যবহারকারী সংরক্ষণ করুন ক্লিক করলেই"
+" কেবল রেকর্ড সংরক্ষিত হয়"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"এই রেকর্ডে অসংরক্ষিত পরিবর্তন আছে। সেগুলো বাতিল করুন, অথবা এখানে থেকে রাখতে "
+"সংরক্ষণ করুন ক্লিক করুন।"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "অসংরক্ষিত পরিবর্তন"

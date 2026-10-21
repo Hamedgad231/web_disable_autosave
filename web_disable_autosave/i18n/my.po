@@ -1,0 +1,77 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"ဝဘ်ကလိုင်းယင့်၏ အလိုအလျောက်သိမ်းဆည်းခြင်းကို ပိတ်ပါ-\n"
+" - မှတ်တမ်းမှ ထွက်ခြင်း (လမ်းကြောင်းပြ၊ မီနူး၊ နောက်သို့ခလုတ်၊ လင့်ခ်များ)- ပြောင်းလဲမှုများကို ပယ်ဖျက်မလား ဆက်နေမလား မေးသည်\n"
+" - ဘရောက်ဇာ တက်ဘ်ကို ပြန်ဖွင့်ခြင်း သို့မဟုတ် ပိတ်ခြင်း- မထွက်မီ ဘရောက်ဇာက မေးသည်၊ ဘာမှ မသိမ်းဆည်းပါ\n"
+" - အခြား ဘရောက်ဇာ တက်ဘ်သို့ ပြောင်းခြင်း- ဘာမှ မသိမ်းဆည်းပါ\n"
+" - မှတ်တမ်း စာမျက်နှာလှန်ခြင်း (နောက်တစ်ခု / ယခင်) နှင့် အသစ် ခလုတ်- ပြောင်းလဲမှုများကို ပယ်ဖျက်မလား ဆက်နေမလား မေးသည်\n"
+" - ပြင်ဆင်နိုင်သော စာရင်းများ- ပြင်ဆင်ထားသော အတန်းဖြင့် စာမျက်နှာမှ ထွက်လျှင် ပယ်ဖျက်မလား ဆက်နေမလား မေးသည်\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "အလိုအလျောက်သိမ်းဆည်းခြင်းကို ပိတ်ရန်"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "ပြောင်းလဲမှူမလုပ်တော့ဘူး"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "နေပါဉီး"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"Odoo ၏ အလိုအလျောက်သိမ်းဆည်းခြင်းကို ရပ်ပါ- အသုံးပြုသူက သိမ်းဆည်းမည် "
+"ကိုနှိပ်မှသာ မှတ်တမ်းများကို သိမ်းဆည်းသည်"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"ဤမှတ်တမ်းတွင် မသိမ်းဆည်းရသေးသော ပြောင်းလဲမှုများ ရှိသည်။ ၎င်းတို့ကို "
+"ပယ်ဖျက်ပါ၊ သို့မဟုတ် ဤနေရာတွင် ဆက်နေပြီး ထိန်းသိမ်းရန် သိမ်းဆည်းမည် "
+"ကိုနှိပ်ပါ။"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "ပြောင်းလဲမှူများကို မသိမ်းရသေး"

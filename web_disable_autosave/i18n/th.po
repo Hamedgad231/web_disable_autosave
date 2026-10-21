@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_disable_autosave
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 20.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,description:base.module_web_disable_autosave
+msgid ""
+"\n"
+"Disable the automatic save of the web client:\n"
+" - leaving the record (breadcrumb, menu, back button, links): ask to discard the changes or stay\n"
+" - reloading or closing the browser tab: the browser asks before leaving, nothing is saved\n"
+" - switching to another browser tab: nothing is saved\n"
+" - record pager (next / previous) and New button: ask to discard the changes or stay\n"
+" - editable lists: leaving the page with an edited row asks to discard it or stay\n"
+msgstr ""
+"\n"
+"ปิดการบันทึกอัตโนมัติของเว็บไคลเอนต์:\n"
+" - ออกจากรายการ (เส้นทางนำทาง เมนู ปุ่มย้อนกลับ ลิงก์): ถามว่าจะละทิ้งการเปลี่ยนแปลงหรืออยู่ต่อ\n"
+" - โหลดซ้ำหรือปิดแท็บเบราว์เซอร์: เบราว์เซอร์จะถามก่อนออก ไม่มีการบันทึกใดๆ\n"
+" - สลับไปยังแท็บเบราว์เซอร์อื่น: ไม่มีการบันทึกใดๆ\n"
+" - การเลื่อนรายการ (ถัดไป / ก่อนหน้า) และปุ่มสร้าง: ถามว่าจะละทิ้งการเปลี่ยนแปลงหรืออยู่ต่อ\n"
+" - รายการที่แก้ไขได้: การออกจากหน้าที่มีแถวที่แก้ไขอยู่จะถามว่าจะละทิ้งหรืออยู่ต่อ\n"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,shortdesc:base.module_web_disable_autosave
+msgid "Disable Auto Save"
+msgstr "ปิดการบันทึกอัตโนมัติ"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Discard changes"
+msgstr "ยกเลิกการเปลี่ยนแปลง"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Stay here"
+msgstr "อยู่ที่นี่"
+
+#. module: web_disable_autosave
+#: model:ir.module.module,summary:base.module_web_disable_autosave
+msgid ""
+"Stop the automatic save of Odoo: records are only saved when the user clicks"
+" Save"
+msgstr ""
+"หยุดการบันทึกอัตโนมัติของ Odoo: "
+"ระบบจะบันทึกรายการเมื่อผู้ใช้คลิกบันทึกเท่านั้น"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid ""
+"This record has unsaved changes. Discard them, or stay here and click Save "
+"to keep them."
+msgstr ""
+"รายการนี้มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก ละทิ้งการเปลี่ยนแปลง "
+"หรืออยู่ที่นี่แล้วคลิกบันทึกเพื่อเก็บไว้"
+
+#. module: web_disable_autosave
+#. odoo-javascript
+#: code:addons/web_disable_autosave/static/src/discard_dialog.js:0
+msgid "Unsaved changes"
+msgstr "การเปลี่ยนแปลงที่ไม่ได้บันทึก"
